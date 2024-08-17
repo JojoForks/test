@@ -1,5 +1,7 @@
 const fetchYandexData = (token) => fetch(`https://login.yandex.ru/info?format=json&oauth_token=${token}`).then((res) => res.json());
-
+const authorize = ({display_name: displayName}) => {
+  document.getElementsById("loginned").innerHTML = `<div>Вы вошли как: ${displayName}</div>`;
+}
 window.onload = () => {
   document.getElementById("button").onclick = () => {
     window.YaAuthSuggest.init(
