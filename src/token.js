@@ -1,3 +1,3 @@
 window.onload = () => {
-  YaSendSuggestToken('https://test-i5uk5sfgk-justethans-projects.vercel.app/');
+  YaSendSuggestToken('https://test-seven-gamma-42.vercel.app/');
 };
