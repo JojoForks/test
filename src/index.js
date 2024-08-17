@@ -4,9 +4,9 @@ window.onload = () => {
       {
         client_id: "8067511ba5bb4d29b858e21fba85e4b5",
         response_type: "token",
-        redirect_uri: "https://test-i5uk5sfgk-justethans-projects.vercel.app/token.html",
+        redirect_uri: "https://test-seven-gamma-42.vercel.app/token.html",
       },
-      "https://test-i5uk5sfgk-justethans-projects.vercel.app",
+      "https://test-seven-gamma-42.vercel.app",
       {
         view: "button",
         parentId: "buttonContainer",
